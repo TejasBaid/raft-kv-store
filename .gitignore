@@ -1,0 +1,5 @@
+/target
+/data
+*.wal
+*.wal.tmp
+.DS_Store
