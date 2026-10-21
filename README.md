@@ -1,7 +1,5 @@
 # raft-kv
 
-[![CI](https://github.com/TejasBaid/raft-kv-store/actions/workflows/ci.yml/badge.svg)](https://github.com/TejasBaid/raft-kv-store/actions/workflows/ci.yml)
-
 **raft-kv** is a small etcd-style replicated key-value store written in Rust. The Raft
 consensus layer is built from scratch, with no Raft crates. The consensus core and the
 server logic are deterministic state machines with no I/O, so the *same code* that serves
